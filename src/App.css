@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  font-family: "Fredoka", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #eee;
+}
+
+#pop-up {
+  justify-content: center;
+  align-items: center;
+  height: 20vh;
+  width: 100%;
+  background-color: lightgrey;
+  border: 1px solid #333;
+  color: rgb(24, 24, 24);
+  display: none;
+}
+
+.startBtn {
+  border: none;
+  border-radius: 0.5rem;
+  background-color: rgb(0, 110, 255);
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.5rem 1rem;
+  margin: 2rem auto;
+  display: block;
+}
